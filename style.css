@@ -48,10 +48,9 @@ a {
 }
 
 
-/* Start */
+                                            /* Start */
 
 /* Landing section */
-
 .landing {
   background-color: #FDDED8;
   text-align: center;
@@ -76,4 +75,32 @@ a {
 
 .fill__button {
   margin-right: 10px;
+}
+
+
+/* service section */
+.service {
+  background-color: #F4F5F7;
+  padding: 80px 0;
+  margin: auto;
+
+}
+
+.service__title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3076923077;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.service__description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4545454545;
+  letter-spacing: -0.01em;  
+}
+
+.col-6:first-child {
+  padding-right: 110px;
 }
