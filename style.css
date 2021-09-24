@@ -260,3 +260,15 @@ a {
   text-decoration: underline;
   color: #3040C4;
 }
+
+/* footer section */
+.footer {
+  margin: 16px 0;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color: #807F81;
+  margin-right: 15px;
+}
