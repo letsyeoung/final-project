@@ -103,4 +103,74 @@ a {
 
 .col-6:first-child {
   padding-right: 110px;
+}  /*n-child는 부모요소에 주는 것.*/ 
+   
+
+/* program section */
+.program {
+  text-align: center;
+  padding: 88px 0;
 }
+
+.program__category {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.0909090909;
+  letter-spacing: -0.01em;
+  color:#009B4D;
+}
+
+.program__title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+
+.program__description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4545454545;
+  letter-spacing: -0.01em;  
+  margin-bottom: 72px;
+}
+
+.program__img__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 299px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.program__img:hover {
+  background-color: #3040C4;
+  color: #fff;
+}
+
+.program__img img {
+  display: block;
+  width: auto;
+  height: 195px;
+  margin-bottom: 24px;
+}
+
+.program__img__title {
+  font-size: 20;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
