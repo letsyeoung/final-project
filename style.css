@@ -326,6 +326,16 @@ a {
     line-height: 1.375;
   }
 
+  .category {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+  }
+
+
   /* landing section */
   .landing__title {
     font-size: 40px;
@@ -333,11 +343,17 @@ a {
     line-height: 1;
     margin-bottom: 24px;
   }
+
+  .button__group {
+    display: flex;
+    justify-content: center;
+  }
   
   .landing__content .description {
     margin-bottom: 24px;
   }
   
+
   /* service section */
   .service__title {
     font-size: 22px;
@@ -346,10 +362,45 @@ a {
     margin-bottom: 16px;
   }
 
-  .col-12 .col-md-6:first-child {
+  .service .description {
     margin-bottom: 40px;
   }
 
+
+  /* program section */
+  .program {
+    text-align: left;
+    padding: 88px 0;
+  }
+
+  .program__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.0588235294;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+  }
+
+  .program__img__group {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+
+  }
+
+  .program__img {
+    display:block;
+    margin: auto;
+    text-align: center;
+    border:1px solid #000;
+  }
+
+  .program__img img {
+    width: auto;
+    height: 195px;
+    margin: 40px auto;
+  }
 
 }
 
