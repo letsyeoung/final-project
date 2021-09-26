@@ -23,7 +23,7 @@ a {
 }
 
 
-/* reset CSS */
+/* 공통요소 */
 .category {
   display: block;
   margin-bottom: 16px;
@@ -71,7 +71,7 @@ a {
 }
 
 
-                                            /* Start */
+                                            /* WEB */
 
                       
 /* Landing section */
@@ -284,7 +284,7 @@ a {
 }
 
 
-/* mobile */
+                                            /* MOBILE */
 
 @media screen and (max-width: 760px) {
 
@@ -393,14 +393,108 @@ a {
     display:block;
     margin: auto;
     text-align: center;
-    border:1px solid #000;
+    margin-bottom: 20px;
   }
 
   .program__img img {
     width: auto;
     height: 195px;
     margin: 40px auto;
+    margin-bottom: 16px;
   }
+
+
+  /* Curriculum Section */
+  .curriculum__title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+  }
+
+  .curriculum .description {
+    margin-bottom: 32px;
+  }
+  
+  .curriculum .button__group {
+    display: block;
+    text-emphasis: left;
+    margin-bottom: 48px;
+  }
+
+  .curriculum img {
+    display: none;
+  }
+
+  .curriculum__details {
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1.4666666667;
+    letter-spacing: -0.01em;
+  }
+
+
+    /* Subscription Section */
+    .subscription img {
+      display: block;
+      width: auto;
+      height: 240px;
+      margin: auto;
+      margin-bottom: 16px;
+    }
+
+    .subscription__title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      margin: 16px 0;
+    }
+
+    .subcription__button {
+      display: block;
+    }
+    
+    .subscription__email {
+      width: 290px;
+      height: 48px;
+      background-color: #fff;
+      color: #7B7B7E;
+      padding-left: 15px;
+      margin-bottom: 8px;
+    }
+    
+    .subscription .fill__button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .subcription__misc {
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.5384615385;
+      color:#7B7B7E;
+    }
+    
+    .subcription__misc a {
+      text-decoration: underline;
+      color: #3040C4;
+    }
+
+    /* footer section */
+    .footer {
+      margin: 24px 15px;
+    }
+
+    .footer-link {
+      display: block;
+      margin-bottom: 8px;
+    }
+}
+
 
 }
 
