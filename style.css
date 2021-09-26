@@ -98,7 +98,7 @@ a {
 }
 
 
-/* service section */
+/* Service section */
 .service {
   background-color: #F4F5F7;
   padding: 80px 0;
@@ -116,10 +116,10 @@ a {
 
 .col-12 .col-md-6:first-child {
   padding-right: 110px;
-}  /*n-child는 부모요소에 주는 것.*/ 
-   
+} 
 
-/* program section */
+
+/* Program section */
 .program {
   text-align: center;
   padding: 88px 0;
@@ -221,7 +221,7 @@ a {
 }
 
 
-/* subscription section */
+/* Subscription section */
 .subscription {
   background-color: #F2F8FA;
   padding: 80px 0;
@@ -275,7 +275,7 @@ a {
   color: #3040C4;
 }
 
-/* footer section */
+/* Footer section */
 .footer {
   margin: 16px 0;
 }
@@ -340,7 +340,7 @@ a {
   }
 
 
-  /* landing section */
+  /* Landing section */
   .landing__title {
     font-size: 40px;
     font-weight: 700;
@@ -358,7 +358,7 @@ a {
   }
   
 
-  /* service section */
+  /* Service section */
   .service__title {
     font-size: 22px;
     font-weight: 700;
@@ -371,7 +371,7 @@ a {
   }
 
 
-  /* program section */
+  /* Program section */
   .program {
     text-align: left;
     padding: 88px 0;
@@ -488,7 +488,7 @@ a {
       color: #3040C4;
     }
 
-    /* footer section */
+    /* Footer section */
     .footer {
       margin: 24px 15px;
     }
